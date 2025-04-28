@@ -1,16 +1,10 @@
-
-@keyframes expandBox {
-    from{height: 160px;}
-    to{height: auto;}
-}
 #joke-root-div{
     max-width: 400px;
-    /* max-height: 160px; */
+    /* max-height: 200px; */
     border-style: solid;
     box-shadow: 5px 5px 5px #c4c4c4;
     border-radius: 10px;
     margin: 10px;
-    
 }
 
 .joke-text{
@@ -22,20 +16,9 @@
 
 .joke-buttons{
     border-color: black;
-    color: black;
-    
     border-radius: 10px;
     margin: 10px;
-    transition-duration: 0.4s;
 }
-.joke-buttons:hover{
-    border-color: black;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: gray;
-    color:white;
-}
-
 .joke-punchline{
     color: #c20d00;
     font-style: italic;

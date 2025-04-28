@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./JokeComponent.css";
 
-function Joke() {
+function Quote() {
   const [jokeSetup, setJokeSetup] = useState(""); // For the setup part of the joke
   const [jokePunchline, setJokePunchline] = useState(""); // For the punchline
   const [isRevealed, setIsRevealed] = useState(false); // To toggle punchline visibility
@@ -50,4 +50,4 @@ function Joke() {
   );
 }
 
-export default Joke;
+export default Quote;
