@@ -1,10 +1,10 @@
 
 @keyframes expandBox {
     from{height: 160px;}
-    to{height: auto;}
+    to{height: 300px;}
 }
 #joke-root-div{
-    max-width: 400px;
+    width: 400px;
     /* max-height: 160px; */
     border-style: solid;
     box-shadow: 5px 5px 5px #c4c4c4;
@@ -34,6 +34,7 @@
     margin: 10px;
     background-color: gray;
     color:white;
+
 }
 
 .joke-punchline{

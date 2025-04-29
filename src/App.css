@@ -1,0 +1,13 @@
+#app-root-div {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.Title{
+    text-align: center;
+    border-bottom:solid;
+    border-radius: 100px;
+    font-family:monospace
+}

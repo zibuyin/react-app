@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./JokeComponent.css";
-
+import { Stack, HStack, VStack } from "rsuite";
 function Joke() {
   const [jokeSetup, setJokeSetup] = useState(""); // For the setup part of the joke
   const [jokePunchline, setJokePunchline] = useState(""); // For the punchline
