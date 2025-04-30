@@ -37,15 +37,21 @@ function Joke() {
           <p className="joke-punchline" onClick={() => setIsRevealed(true)}></p>
         ) // Used as a placeholder for when answer is not revealed
       }
-      <button onClick={fetchJoke} className="joke-buttons">
-        Get a New Joke
-      </button>
-      <button
-        onClick={() => setIsRevealed(true)} // Reveal punchline
-        className="joke-buttons"
-      >
-        Reveal Punchline
-      </button>
+      <div id="ButtonWrapper">
+        <button
+          onClick={() => {
+            if (isRevealed) {
+              fetchJoke();
+              setIsRevealed(false);
+            } else {
+              setIsRevealed(true);
+            }
+          }}
+          className="joke-buttons"
+        >
+          {isRevealed ? "Get a New Joke" : "Reveal Punchline"}
+        </button>
+      </div>
     </div>
   );
 }
