@@ -4,12 +4,12 @@
     to{height: 300px;}
 }
 #joke-root-div{
-    width: 500px;
-    height: 250px;
+    width: 100vw;
+    max-height: 250px;
     border-style: solid;
     box-shadow: 5px 5px 5px #c4c4c4;
     border-radius: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     
 }
 

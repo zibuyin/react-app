@@ -1,7 +1,7 @@
 #app-root-div {
     display: flex;
     flex-direction: row; 
-    align-items: center; 
+    align-items: tops; 
     gap: 10px; 
 }
 
